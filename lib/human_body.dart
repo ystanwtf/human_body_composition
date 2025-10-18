@@ -15,6 +15,7 @@ class HumanBody {
     required this.lungs,
   });
 
+  // Delegated Action 1
   void startDay() {
     print('[$name] Starting the day...');
     brain.think('Plan daily routine');
@@ -23,6 +24,7 @@ class HumanBody {
     print('[$name] Ready to go!\n');
   }
 
+  // Delegated Action 2
   void sleep() {
     print('[$name] Going to sleep...');
     lungs.slowBreath();
