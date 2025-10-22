@@ -8,7 +8,7 @@ class Lungs {
   Lungs({this.capacity = 5.0});
 
   void breathe() {
-    print('[Lungs] Breathing with $capacityL capacity');
+    print('[Lungs] Breathing with $capacity capacity');
   }
 
   void slowBreath() {
